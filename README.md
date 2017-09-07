@@ -17,7 +17,6 @@ Swagger UI library
 <br/>
 <br/>
 ENDPOINTS
-
 <br/>
 GET /api/triangle
 
