@@ -34,6 +34,8 @@ public class InterviewController {
             @RequestParam("b") Double b,
             @RequestParam("c") Double c) {
 
+        //I made the return type a String instead of an Integer (PDF directions)
+        //so it would be more clear on which type of triangle is it.
         return new ResponseEntity(triangleService.getTriangleType(a, b, c), HttpStatus.OK);
     }
 
