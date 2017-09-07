@@ -18,6 +18,7 @@ Swagger UI library
 <br/>
 ENDPOINTS
 <br/>
+
 GET /api/triangle
 
 Takes in 3 Doubles.
